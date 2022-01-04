@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
  
-  bgColor: string = 'grey';
-
-  changeColor() {
-    this.bgColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
-  }
-
-}
+ }
